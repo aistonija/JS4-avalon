@@ -1,6 +1,8 @@
 :root {
-  --white-text: rgb(255, 255, 255);
+  --white: rgb(255, 255, 255);
   --browny-red: rgb(161, 57, 57);
+  --yellow: rgb(255, 187, 85);
+  --light-red: rgb(243, 64, 64);
 }
 
 * {
@@ -55,11 +57,11 @@
 /* basic button style */
 
 .button-style {
-  color: var(--blue-text);
+  color: var(--white);
   background-color: transparent;
   border-radius: 20px;
   padding: 10px 15px;
-  border: 1px solid var(--white-text);
+  border: 1px solid var(--white);
   cursor: pointer;
   width: 135px;
 }
@@ -67,20 +69,12 @@
 /* text styles */
 
 .text-white {
-  color: var(--white-text);
+  color: var(--white);
 }
-
-/* .text-content,
-.offer,
-.bg-yellow  */
 
 .text-uppercase {
   text-transform: uppercase;
 }
-
-/* .brand-name,
-.subtitle,
-.offer */
 
 /* layers */
 

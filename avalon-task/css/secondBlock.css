@@ -82,6 +82,6 @@
   font-size: 14px;
 }
 
-.theme-text ul > li::before {
+.theme-text ul > li:before {
   content: "+ ";
 }
