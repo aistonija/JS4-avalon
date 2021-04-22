@@ -1,9 +1,4 @@
-.mail-icon,
-.card-heart,
-.card-home,
-.card-arrow,
-.card-message,
-.globe {
+.mail-icon {
   color: white;
   border: 1px solid white;
   width: 150px;
@@ -13,11 +8,7 @@
 }
 
 .fa-cat,
-.fa-heart,
-.fa-home,
-.fa-share-square,
-.fa-comment-alt,
-.fa-globe-europe {
+.fa-plane-departure {
   font-size: 5rem;
   position: absolute;
   top: 50%;
