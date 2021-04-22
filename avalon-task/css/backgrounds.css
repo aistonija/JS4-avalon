@@ -1,0 +1,14 @@
+/* 1st block wide background */
+
+.water-bg {
+  background-image: url(../img/water.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+}
+
+/* 1st block narrow background */
+
+.bg-yellow {
+  background-color: rgb(255, 187, 85);
+}
