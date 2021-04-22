@@ -43,13 +43,6 @@
   }
 }
 
-.iron-man {
-  background-image: url(../img/iron-man.webp);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
 .iron-man-reversed > img {
   object-fit: cover;
   width: 100%;
