@@ -76,3 +76,13 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
+/* ============================================ */
+/* 5th block */
+/* ============================================ */
+
+.form-block {
+  background-image: url(../img/1076836.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}

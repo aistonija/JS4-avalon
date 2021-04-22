@@ -1,0 +1,56 @@
+/* 6 blokas */
+.form-layer {
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 100%;
+  padding: 100px;
+}
+
+.transparent-form {
+  width: 100%;
+  height: 100%;
+}
+
+.inputs-group > input,
+.inputs-group > textarea {
+  width: 30%;
+  gap: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-bottom: 2px solid var(--white);
+  outline: none;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.inputs-group > textarea {
+  width: 100%;
+  height: 200px;
+}
+
+.inputs-group ::placeholder {
+  color: var(--white);
+}
+
+.form-button {
+  background-color: var(--yellow);
+  border: 1px solid var(--yellow);
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.map-block {
+  position: relative;
+}
+
+.orange-map-layer {
+  background-color: rgba(255, 175, 56, 0.85);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.map-block:hover .orange-map-layer {
+  display: none;
+}
