@@ -54,3 +54,14 @@
   height: 100%;
   padding: 100px;
 }
+
+/* ============================================ */
+/* 4th block */
+/* ============================================ */
+
+.iron-man {
+  background-image: url(../img/iron-man.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
