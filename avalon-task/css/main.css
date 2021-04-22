@@ -1,3 +1,8 @@
+:root {
+  --white-text: rgb(255, 255, 255);
+  --browny-red: rgb(161, 57, 57);
+}
+
 * {
   box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -50,11 +55,11 @@
 /* basic button style */
 
 .button-style {
-  color: white;
+  color: var(--blue-text);
   background-color: transparent;
   border-radius: 20px;
   padding: 10px 15px;
-  border: 1px solid white;
+  border: 1px solid var(--white-text);
   cursor: pointer;
   width: 135px;
 }
@@ -62,7 +67,7 @@
 /* text styles */
 
 .text-white {
-  color: white;
+  color: var(--white-text);
 }
 
 /* .text-content,

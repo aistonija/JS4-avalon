@@ -35,6 +35,6 @@
 }
 
 .bg-browny-red {
-  background-color: rgb(161, 57, 57);
-  border: 1px solid rgb(161, 57, 57);
+  background-color: var(--browny-red);
+  border: 1px solid var(--browny-red);
 }
