@@ -3,6 +3,7 @@
   --browny-red: rgb(161, 57, 57);
   --yellow: rgb(255, 187, 85);
   --light-red: rgb(243, 64, 64);
+  --orange: rgb(255, 129, 56);
 }
 
 * {
@@ -80,5 +81,10 @@
 
 .bg-layer {
   background-color: rgba(61, 61, 61, 0.5);
+  height: 100%;
+}
+
+/* height */
+.h-100 {
   height: 100%;
 }

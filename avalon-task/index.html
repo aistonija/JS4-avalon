@@ -18,6 +18,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/backgrounds.css" />
     <link rel="stylesheet" href="css/flex.css" />
     <link rel="stylesheet" href="css/spacing.css" />
     <link rel="stylesheet" href="css/firstBlock.css" />
@@ -25,7 +26,7 @@
     <link rel="stylesheet" href="css/thirdBlock.css" />
     <link rel="stylesheet" href="css/fourthBlock.css" />
     <link rel="stylesheet" href="css/fifthBlock.css" />
-    <link rel="stylesheet" href="css/backgrounds.css" />
+    <link rel="stylesheet" href="css/cardFlip.css" />
   </head>
   <body>
     <!-- pagrindinis platus blokas -->
@@ -397,53 +398,93 @@
     <!-- 5 blokas -->
     <section class="full-narrow-block mb-1">
       <div class="avatar-layer d-flex">
-        <div class="card yellow-layer">
-          <div class="card-heart mb-2 hide-show">
-            <i class="far fa-heart"></i>
+        <!-- 1st card -->
+        <div class="flip-box-yellow h-100">
+          <div class="flip-box-inner-yellow yellow-layer">
+            <div
+              class="flip-box-front h-100 d-flex flex-column justify-center align-center"
+            >
+              <div class="card__icon text-white">
+                <i class="fas fa-heartbeat"></i>
+              </div>
+              <span class="card-title mt-2">Lorem, ipsum dolor.</span>
+            </div>
+            <div
+              class="flip-box-back back--yellow d-flex flex-column justify-center align-center p-2"
+            >
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus qui dolore accusamus alias voluptatibus tenetur
+                nihil tempora necessitatibus sint molestias.
+              </p>
+            </div>
           </div>
-          <span class="card-title hide-show text-uppercase"
-            >Lorem, ipsum dolor.</span
-          >
-          <p class="d-none">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est numquam
-            nulla, aut quam placeat autem earum nemo suscipit minima explicabo.
-          </p>
         </div>
-        <div class="card orange-layer">
-          <div class="card-home mb-2 hide-show">
-            <i class="fas fa-home"></i>
+        <!-- 2nd card -->
+        <div class="flip-box-orange h-100">
+          <div class="flip-box-inner-orange orange-layer">
+            <div
+              class="flip-box-front h-100 d-flex flex-column justify-center align-center"
+            >
+              <div class="card__icon text-white">
+                <i class="fas fa-heartbeat"></i>
+              </div>
+              <span class="card-title mt-2">Lorem, ipsum dolor.</span>
+            </div>
+            <div
+              class="flip-box-back back--orange d-flex flex-column justify-center align-center p-2"
+            >
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus qui dolore accusamus alias voluptatibus tenetur
+                nihil tempora necessitatibus sint molestias.
+              </p>
+            </div>
           </div>
-          <span class="card-title text-uppercase hide-show"
-            >Lorem ipsum dolor sit.</span
-          >
-          <p class="d-none">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est numquam
-            nulla, aut quam placeat autem earum nemo suscipit minima explicabo.
-          </p>
         </div>
-        <div class="card cherry-layer">
-          <div class="card-arrow mb-2 hide-show">
-            <i class="far fa-share-square"></i>
+        <!-- 3rd card -->
+        <div class="flip-box-red h-100 flip-yellow">
+          <div class="flip-box-inner-red red-layer">
+            <div
+              class="flip-box-front h-100 d-flex flex-column justify-center align-center"
+            >
+              <div class="card__icon text-white">
+                <i class="fas fa-heartbeat"></i>
+              </div>
+              <span class="card-title mt-2">Lorem, ipsum dolor.</span>
+            </div>
+            <div
+              class="flip-box-back back--red d-flex flex-column justify-center align-center p-2"
+            >
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus qui dolore accusamus alias voluptatibus tenetur
+                nihil tempora necessitatibus sint molestias.
+              </p>
+            </div>
           </div>
-          <span class="card-title text-uppercase hide-show"
-            >Lorem ipsum dolor sit amet.</span
-          >
-          <p class="d-none">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est numquam
-            nulla, aut quam placeat autem earum nemo suscipit minima explicabo.
-          </p>
         </div>
-        <div class="card red-layer">
-          <div class="card-message mb-2 hide-show">
-            <i class="far fa-comment-alt"></i>
+        <!-- 4th card -->
+        <div class="flip-box-cherry h-100">
+          <div class="flip-box-inner-cherry cherry-layer">
+            <div
+              class="flip-box-front h-100 d-flex flex-column justify-center align-center"
+            >
+              <div class="card__icon text-white">
+                <i class="fas fa-heartbeat"></i>
+              </div>
+              <span class="card-title mt-2">Lorem, ipsum dolor.</span>
+            </div>
+            <div
+              class="flip-box-back d-flex flex-column justify-center align-center p-2 back--cherry"
+            >
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus qui dolore accusamus alias voluptatibus tenetur
+                nihil tempora necessitatibus sint molestias.
+              </p>
+            </div>
           </div>
-          <span class="card-title text-uppercase hide-show"
-            >Lorem, ipsum dolor.</span
-          >
-          <p class="d-none">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est numquam
-            nulla, aut quam placeat autem earum nemo suscipit minima explicabo.
-          </p>
         </div>
       </div>
     </section>
