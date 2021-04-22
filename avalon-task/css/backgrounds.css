@@ -1,4 +1,6 @@
+/* ============================================ */
 /* 1st block wide background */
+/* ============================================ */
 
 .water-bg {
   background-image: url(../img/water.webp);
@@ -11,4 +13,28 @@
 
 .bg-yellow {
   background-color: rgb(255, 187, 85);
+}
+
+/* ============================================ */
+/* 2nd block */
+/* ============================================ */
+.bg-envelope {
+  background-image: url(../img/green_envelopes.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+}
+
+.bg-layer-red {
+  height: 100%;
+  background-color: rgba(161, 57, 57, 0.9);
+}
+
+.bg-grey {
+  background-color: rgb(224, 224, 224);
+}
+
+.bg-browny-red {
+  background-color: rgb(161, 57, 57);
+  border: 1px solid rgb(161, 57, 57);
 }
